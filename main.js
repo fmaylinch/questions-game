@@ -15,7 +15,16 @@ submitButton.addEventListener("click", function checkTheAnswer() {
     let answerInput = document.getElementById("answer");
     let answer = answerInput.value;
 
+    // TODO: Finish this method (see its implementation in Game class)
     game1.displayResultForAnswer(answer);
+
+    // TODO: Implement and call this method
+    //       It should change the current question index.
+    // game1.moveToNextQuestion();
+
+    // TODO: Now display the next question
+    //       Since the question index has changed,
+    //       what do you have to do now?
 });
 
 

@@ -32,6 +32,8 @@ class Game {
 
         let result = document.getElementById("result");
 
+        // TODO: change numCorrectAnswers accordingly
+
         if (correct) {
             result.textContent = "'" + answer + "' is correct!";
             result.classList.remove("result-wrong");
