@@ -1,0 +1,21 @@
+
+.container {
+    margin-top: 20px;
+}
+
+.col-sm {
+    border: 1px dashed darkgray;
+}
+
+.question-form {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.result-ok {
+    color: green;
+}
+
+.result-wrong {
+    color: red;
+}
